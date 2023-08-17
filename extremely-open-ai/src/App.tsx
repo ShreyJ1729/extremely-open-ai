@@ -8,7 +8,7 @@ function App() {
   const [output, setOutput] = React.useState("");
 
   const url =
-    "https://shreyj1729--extremely-open-ai-run-query-dev.modal.run/?prompt=";
+    "https://shreyj1729--extremely-open-ai-run-query.modal.run/?prompt=";
 
   const fetchData = async (message: string) => {
     try {
