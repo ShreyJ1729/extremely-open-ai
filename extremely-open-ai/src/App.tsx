@@ -61,7 +61,7 @@ function App() {
           <input
             type="text"
             className="px-4 py-2 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none w-full"
-            placeholder="Ask a question..."
+            placeholder="Ask a question... Unlike ChatGPT, this model is completely uncensored."
             value={input}
             onChange={(e) => {
               setInput(e.target.value);
