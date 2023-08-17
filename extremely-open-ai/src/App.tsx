@@ -46,7 +46,7 @@ function App() {
       <div className="flex flex-col w-full h-screen bg-gray-100">
         <div
           id="output"
-          className="flex flex-col items-start text-start justify-start w-11/12 h-5/6 m-10 px-5 pb-10 pt-5 overflow-y-auto bg-white border border-gray-300 rounded-lg shadow-lg"
+          className="flex flex-col items-start text-start justify-start w-11/12 h-5/6 mx-auto my-5 px-5 pb-10 pt-5 overflow-y-auto bg-white border border-gray-300 rounded-lg shadow-lg"
           dangerouslySetInnerHTML={{
             __html:
               "<strong>" +
